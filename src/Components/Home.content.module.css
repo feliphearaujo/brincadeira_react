@@ -1,0 +1,19 @@
+.homecontent{
+    background-color: aqua;
+    font-size: 2em;
+}
+
+.reactlogo{
+    height: 6em;
+    animation: loading 1s linear infinite;
+    padding: 1.5em;
+}
+
+@keyframes loading {
+	0% {
+		transform: rotate(0);
+	}
+  100% {
+		transform: rotate(360deg);
+	}
+}
