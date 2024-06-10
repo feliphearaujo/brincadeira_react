@@ -1,3 +1,4 @@
+import { FormContact } from "./Contact.form"
 
 
 function Contact(props) {
@@ -7,6 +8,8 @@ function Contact(props) {
         <p>{props.descricao}</p>
         <p>{props.endereco}</p>
         <p>{props.telefone}</p>
+
+        <FormContact/>
     </>
   )
 }
